@@ -1,0 +1,27 @@
+{
+  "name": "genetic-phrase-solver",
+  "description": "Generates desired text thru a genetic algorithm.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "author": "Rahat Ahmed",
+  "repository": "rahatarmanahmed/genetic-phrase-solver",
+  "scripts": {
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "ava",
+    "prepublish": "npm run test"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "standard": "^8.4.0"
+  },
+  "dependencies": {
+    "chance": "^1.0.4",
+    "evolutionary": "^0.1.0",
+    "ramda": "^0.22.1"
+  },
+  "engines": {
+    "node": ">= 4.0"
+  }
+}
