@@ -10,11 +10,26 @@ var solver = require('genetic-phrase-solver');
 
 var generator = solver('Hello world!')
 
-// Prints out the string as it evolves to match the solution
-// Initially prints out random gibberish
 for(let str of generator) {
   console.log(str);
 }
+// Prints out something like:
+// !eWeo!HroWd!
+// !elrd Hllrd
+// Hrddo eolle
+// Hrddo eolle
+// Hrldo oerle!
+// Hrloo dlrle!
+// Heooo dlrle!
+// Heloo dlrle!
+// Helro Wlrle!
+// Helro Wlrle!
+// Heloo Wlrle!
+// Helro Worle!
+// Heloo Worle!
+// Heldo World!
+// Heloo World!
+// Hello World!
 ```
 
 ## solver(targetString, [charset])
