@@ -3,7 +3,7 @@
   "description": "Generates desired text thru a genetic algorithm.",
   "version": "1.0.1",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "author": "Rahat Ahmed",
   "repository": "rahatarmanahmed/genetic-phrase-solver",
   "ava": {
