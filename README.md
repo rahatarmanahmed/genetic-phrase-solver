@@ -1,4 +1,6 @@
 # genetic-phrase-solver [![Build Status](https://travis-ci.org/rahatarmanahmed/genetic-phrase-solver.svg?branch=master)](https://travis-ci.org/rahatarmanahmed/genetic-phrase-solver)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rahatarmanahmed/genetic-phrase-solver.svg)](https://greenkeeper.io/)
 Generates desired text thru a genetic algorithm.
 
 ## Installing
